@@ -1,4 +1,4 @@
-export const postRegister = async (store) => {
+export const postRegister = async (store:any) => {
     try {
       const val = await fetch("http://localhost:3000/api/register", {
         method: "POST",
@@ -18,7 +18,7 @@ export const postRegister = async (store) => {
     }
   };
 
-  export const postLogin = async (store) => {
+  export const postLogin = async (store:any) => {
     try {
       const val = await fetch("http://localhost:3000/api/login", {
         method: "POST",
