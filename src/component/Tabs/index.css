@@ -1,0 +1,17 @@
+
+.tab-btn {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color:"white"
+  }
+  
+  .tab-btn.active {
+    color: red;
+    border-bottom: 4px solid orange;
+  }
+
+  .tab-btn.inactive {
+    color:white; 
+  }
+  
